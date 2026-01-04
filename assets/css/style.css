@@ -21,8 +21,20 @@ fieldset {
   margin: 0 auto;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .note {
   background-color: lightgoldenrodyellow;
   text-align: left;
   font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 2rem;
 }

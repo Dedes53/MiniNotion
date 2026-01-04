@@ -21,14 +21,16 @@
              leggenda del form con scritto nuova nota e due campi 
               -->
             <input type="text" name="noteTitle" id="noteTitle" placeholder=" Title" required />
-            <input type="text" name="noteText" id="noteText" placeholder=" Text" required />
+
+            <textarea id="noteText" name="noteText" rows="4" cols="30" placeholder=" Text"></textarea>
+
             <button id="create">Create Note</button>
           </form>
         </fieldset>
       </section>
 
+      <h2>Your Notes</h2>
       <section calss="note">
-        <h2>Your Notes</h2>
         <ul id="noteList"></ul>
       </section>
     </main>
