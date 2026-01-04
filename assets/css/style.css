@@ -10,16 +10,19 @@ h1 {
   font-size: 3rem;
 }
 
-section {
-  background-color: lightgoldenrodyellow;
-  text-align: left;
-}
-
 #noteTitle,
-#create {
+#create,
+#noteText {
   font-size: 1.5rem;
 }
 
-section {
+fieldset {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.note {
+  background-color: lightgoldenrodyellow;
+  text-align: left;
   font-size: 1.2rem;
 }

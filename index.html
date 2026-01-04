@@ -13,11 +13,21 @@
     </header>
 
     <main>
-      <form action="">
-        <input type="text" name="noteTitle" id="noteTitle" placeholder="new title" required />
-        <button id="create">Create Note</button>
-      </form>
-      <section>
+      <section calss="newNote">
+        <fieldset>
+          <legend>New Note</legend>
+          <form action="">
+            <!-- creare il form per aggiungere una nuova nota con titolo e corpo. 
+             leggenda del form con scritto nuova nota e due campi 
+              -->
+            <input type="text" name="noteTitle" id="noteTitle" placeholder=" Title" required />
+            <input type="text" name="noteText" id="noteText" placeholder=" Text" required />
+            <button id="create">Create Note</button>
+          </form>
+        </fieldset>
+      </section>
+
+      <section calss="note">
         <h2>Your Notes</h2>
         <ul id="noteList"></ul>
       </section>
